@@ -10,7 +10,10 @@ class methodChallenge {
         char student_divison = calculateStudentDivison(student_score);
 
         displayRank(student_name, student_divison);
+
+
     }
+
 
     public static void displayRank(String name, char divison) {
         System.out.println(name + " has secured " + divison + " divison");
